@@ -95,7 +95,7 @@ export default class MessageHandler {
 			)}`
 		   );
 			if (!command)
-			return void M.reply( await request.buffer(`https://c.tenor.com/uPVJO4UsB0MAAAPo/yotsuba-nakano-laugh.mp4`),
+			return void M.reply( await request.buffer(`https://c.tenor.com/HNUlYL7ce4sAAAPo/zhongli-genshin-imact-zhongli.mp4`),
                     MessageType.video,
                     Mimetype.gif,
                     undefined,
@@ -123,7 +123,7 @@ export default class MessageHandler {
 		}
 		if (command.config?.adminOnly && !M.sender.isAdmin)
 			return void M.reply(
-				`This command is only meant for the group admins, Baka!`
+				`This command is only meant for the group admins, Traveller!`
 			);
 		try {
 			await command.run(M, this.parseArgs(args));
