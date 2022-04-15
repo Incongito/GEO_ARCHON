@@ -56,6 +56,8 @@ export default class Command extends BaseCommand {
 			role = "Hero";
 		} else if (exp < 100000) {
 			role = "GOD";
+		} else {
+			role = "Archon";
 		}
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		let level: number;
