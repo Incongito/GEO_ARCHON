@@ -43,11 +43,11 @@ export default class Command extends BaseCommand {
 		if (M.quoted?.message?.message?.stickerMessage)
 			buffer = await this.client.downloadMediaMessage(M.quoted.message);
 		if (!buffer)
-			return void M.reply(`Provide a sticker to format, Baka!`);
+			return void M.reply(`Provide a sticker to format`);
 			const pack = parsedArgs.joined.split("|");
 			if (!pack[1])
 				return void M.reply(
-					`Give me the new name and author of the sticker, Baka!\nExample: ${this.client.config.prefix}steal | By | Chitoge`
+					`Please give me the new name and author of the sticker, Friend\nExample: ${this.client.config.prefix}steal | By | zhongli`
 				);
 			const filename = `${tmpdir()}/${Math.random().toString(36)}`;
 			const getQuality = (): number => {
