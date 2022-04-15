@@ -1,7 +1,6 @@
 {
     
-  "name": "Yotsuba",
-  "description": "A WhatsApp Bot With Rich NSFW Features based on chitoge.",
+  "name": "𝗭𝗛𝗢𝗡𝗚𝗟𝗜",
   "keywords": [
       "bot",
       "whatsapp",
@@ -12,9 +11,9 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com//Whatup364/Chitoge.git",
-  "logo": "https://i.pinimg.com/736x/71/c2/8e/71c28e4ffd58c60aceacffab60db14cc.jpg",
+  "website": "https://github.com/NemasisDarkX/GEO_ARCHON#readme",
+  "repository": "https://github.com/NemasisDarkX/GEO_ARCHON.git",
+  "logo": "https://c.tenor.com/m3OLn07Ino8AAAAC/mihoyo-genshinimpact.gif",
   "success_url": "/",
   "env": {
       "PREFIX": {
