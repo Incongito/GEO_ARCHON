@@ -9,17 +9,17 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "yotsuba",
+			command: "zhongli",
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}yotsuba`,
-			baseXp: 2000,
+			baseXp: 20000,
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://c.tenor.com/4TLYvKWI2mgAAAPo/nakano-yotsuba-smile.mp4";
+			"https://c.tenor.com/M25TmVGyi0QAAAPo/zhongling.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
