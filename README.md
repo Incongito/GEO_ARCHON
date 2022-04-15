@@ -1,7 +1,5 @@
 <div align="center">
-    
-<a href="https://ibb.co/YTwRqd1"><img src="https://i.ibb.co/YTwRqd1/In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact.jpg" alt="In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact" border="0"></a>
-
+https://i.ibb.co/YTwRqd1/In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact.jpg
 # **𝗭𝗛𝗢𝗡𝗚𝗟𝗜【:】𝗔𝗥𝗖𝗛𝗢𝗡 𝗢𝗙 𝗟𝗜𝗬𝗨𝗘**
 
 
