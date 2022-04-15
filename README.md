@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/iamherok/Cara_public"><img src="https://img.game-news24.com/2022/01/In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact.jpeg" border="0"></a>
+<a href="https://ibb.co/YTwRqd1"><img src="https://i.ibb.co/YTwRqd1/In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact.jpg" alt="In-Genshin-the-best-works-for-Zhongli-in-Genshin-impact" border="0"></a>
 
 # **Yotsuba : A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON <a href="https://github.com/ShineiIchijo/Chitoge">CHITOGE</er></a></h1>**
 
