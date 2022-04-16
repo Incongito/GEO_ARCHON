@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://www.linkpicture.com/q/OIP-depositphotos-bgremover.png'
+                'https://media.makeameme.org/created/im-gay-5bf267.jpg'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role: string;
@@ -86,7 +86,7 @@ export default class Command extends BaseCommand {
         await M.reply(
             await request.buffer(
                 pfp ||
-                    'https://cdn.donmai.us/original/04/b8/04b83e229baed4a8e83787d75b28a614.jpg'
+                    'https://64.media.tumblr.com/2487341877c75862bb06966fdbd77e2b/06a790bc65b7d437-e7/s1280x1920/c46752b19d385d5f2ff93253c4c5442f1ff5881c.png'
             ),
             MessageType.image,
             undefined,
