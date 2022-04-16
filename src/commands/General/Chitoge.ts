@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: ` *MORAX* \n\n *Description: ARCHON OF LIYUE.* \n`,
+				caption: ` *𝗭𝗛𝗢𝗡𝗚𝗟𝗜* \n\n *Description: A Mysterious Expert Contracted By The Wangsheng Funeral Parlor.Extremely Knowledgeable In All Things.* \n`,
 			}
 		);
 	};
