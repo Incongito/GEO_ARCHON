@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    𝘼𝘿𝙈𝙄𝙉𝙎 𝙂𝙍𝙋\n\n*ZHONGLI support:* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*`,
+        `    𝘼𝘿𝙈𝙄𝙉𝙎 𝙂𝙍𝙊𝙐𝙋\n\n*ZHONGLI support:* *https://chat.whatsapp.com/FP35bbPbK4L4p7DLdIRoT1*`,
            MessageType.text
         ))
         const n = [
