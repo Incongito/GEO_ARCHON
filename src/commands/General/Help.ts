@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: MORAX
+│⋊ ℕ𝕒𝕞𝕖: ZHONGLI
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
 ╰────────────┈                          \n\n`
@@ -59,11 +59,11 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ ARCHON ]┈❅───
+ ──❅┈[ 𝗔𝗥𝗖𝗛𝗢𝗡 ]┈❅───
 ┌────────────┈❅
-│   GLITCH BOT
+│   𝗚𝗟𝗜𝗧𝗖𝗛 𝗕𝗢𝗧𝗦
 └────────────┈⁂
-❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
+❅┈[𝗛𝗔𝗩𝗘 𝗔 𝗚𝗥𝗘𝗔𝗧 𝗗𝗔𝗬 𝗠𝗬 𝗙𝗥𝗜𝗘𝗡𝗗]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
