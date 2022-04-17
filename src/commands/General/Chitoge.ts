@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}yotsuba`,
-			baseXp: 20000,
+			baseXp: 200,
 		});
 	}
 
