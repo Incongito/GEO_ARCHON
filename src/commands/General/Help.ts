@@ -43,27 +43,26 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─「(づ￣ 3￣)づ」
-│⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: ZHONGLI
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-╰────────────┈                          \n\n`
+【𝗨𝗦𝗘𝗥: *${M.sender.username}* 】
+【𝗡𝗔𝗠𝗘: ZHONGLI 】
+【𝗣𝗥𝗘𝗙𝗜𝗫: ${this.client.config.prefix} 】
+【𝗙𝗢𝗥 𝗛𝗘𝗟𝗣: *${this.client.config.prefix}mod* 】
+                                          \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `*『 ${this.client.util.capitalize(
+                text += `* 【${this.client.util.capitalize(
 					key
-	         )} 』*\n❐ \`\`\`${categories[key]
+	         )} 】 *\n ☢ \`\`\`${categories[key]
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ 𝗔𝗥𝗖𝗛𝗢𝗡 ]┈❅───
-┌────────────┈❅
-│   𝗚𝗟𝗜𝗧𝗖𝗛 𝗕𝗢𝗧𝗦
-└────────────┈⁂
-❅┈[𝗛𝗔𝗩𝗘 𝗔 𝗚𝗥𝗘𝗔𝗧 𝗗𝗔𝗬 𝗠𝗬 𝗙𝗥𝗜𝗘𝗡𝗗]┈❅
+      【𝗔𝗥𝗖𝗛𝗢𝗡】 
+
+   【𝗚𝗟𝗜𝗧𝗖𝗛 𝗕𝗢𝗧𝗦】
+
+【𝗛𝗔𝗩𝗘 𝗔 𝗚𝗥𝗘𝗔𝗧 𝗗𝗔𝗬 𝗠𝗬 𝗙𝗥𝗜𝗘𝗡𝗗】
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
